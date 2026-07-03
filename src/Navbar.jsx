@@ -1,0 +1,13 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import logo from './assets/navbar_logo.webp'
+
+const Navbar = () => {
+  return (
+    <ul>
+        <li><Link to='/'><img src={logo} alt="logo"/></Link></li>
+    </ul>
+  )
+}
+
+export default Navbar
